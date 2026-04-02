@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoltRide | Web bán xe điện</title>
+  <meta name="description"
+    content="Website bán xe điện với giao diện hiện đại, danh mục rõ ràng, bảng giá dễ xem và form đăng ký lái thử tối ưu chuyển đổi.">
+  <meta name="keywords"
+    content="xe điện, xe máy điện, xe điện cao cấp, xe điện trung cấp, xe điện phổ thông, web bán xe điện">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container topbar-wrap">
+      <p>Hotline tư vấn: 0909 123 456</p>
+      <p>Miễn phí giao xe nội thành, hỗ trợ trả góp trong ngày</p>
+    </div>
+  </div>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="logo" href="./index.html">
+        <span class="logo-mark">V</span>
+        <span>VoltRide<small>Showroom xe điện đô thị</small></span>
+      </a>
+      <button class="menu-btn" type="button" aria-label="Mở menu">Menu</button>
+      <nav class="nav">
+        <a class="active" href="./index.html">Trang chủ</a>
+        <a href="./san-pham.html">Sản phẩm</a>
+        <a href="./chi-tiet.html">Chi tiết</a>
+        <a href="./khuyen-mai.html">Khuyến mãi</a>
+        <a class="nav-cta" href="./lien-he.html">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero hero-slider-section">
+      <div class="container">
+        <div class="hero-slider" id="hero-slider">
+          <div class="hero-slider-track" id="hero-slider-track"></div>
+          <div class="hero-slider-dots" id="hero-slider-dots" aria-label="Điều hướng banner"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Chọn dòng xe theo nhu cầu</span>
+            <h2>Menu hạng xe và nhiều mẫu màu riêng theo từng phân khúc</h2>
+          </div>
+          <p>Bấm tab để đổi nhanh nhóm xe, sau đó chọn từng mẫu riêng để cập nhật vùng xem nổi bật và danh sách sản
+            phẩm tương ứng.</p>
+        </div>
+        <div class="category-tabs" id="category-tabs" aria-label="Menu hạng xe"></div>
+        <div class="category-layout">
+          <div class="category-feature card" id="category-feature"></div>
+          <div class="cards cards-3 product-browser" id="category-products"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-tint">
+      <div class="container split-grid">
+        <div class="content-box">
+          <span class="eyebrow">Lý do mua xe điện</span>
+          <h2>Website nên trả lời nhanh những câu hỏi khách quan tâm nhất.</h2>
+          <p>Một web bán xe điện hiệu quả không chỉ đẹp mà còn phải giúp khách biết ngay xe nào hợp nhu cầu, giá ra sao,
+            ưu đãi gì và mua ở đâu.</p>
+          <div class="benefits">
+            <article><strong>Tiết kiệm vận hành</strong><span>Chi phí sạc thấp hơn nhiều so với đổ xăng mỗi ngày.</span>
+            </article>
+            <article><strong>Dễ đi trong phố</strong><span>Vận hành êm, đề pa mượt, phù hợp nhịp sống đô thị.</span>
+            </article>
+            <article><strong>Phù hợp nhiều nhóm khách</strong><span>Từ học sinh, sinh viên đến dân văn phòng và gia đình
+                trẻ.</span></article>
+          </div>
+        </div>
+        <div class="content-box dark-box">
+          <span class="eyebrow eyebrow-light">So sánh nhanh</span>
+          <h2>Chọn phân khúc theo ngân sách</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Dòng xe</th>
+                <th>Tầm giá</th>
+                <th>Nhu cầu</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cao cấp</td>
+                <td>32 - 38 triệu</td>
+                <td>Đi làm, hình ảnh chuyên nghiệp</td>
+              </tr>
+              <tr>
+                <td>Trung cấp</td>
+                <td>20 - 27 triệu</td>
+                <td>Đi học, đi làm, chạy hàng nhẹ</td>
+              </tr>
+              <tr>
+                <td>Phổ thông</td>
+                <td>14 - 18 triệu</td>
+                <td>Nhu cầu cơ bản, ngân sách gọn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container banner-grid">
+        <article class="promo-card">
+          <img src="../images/bannertrungcap.png" alt="Ưu đãi cho xe điện trung cấp">
+          <div class="promo-copy">
+            <span class="tag tag-hot">Ưu đãi tháng này</span>
+            <h3>Thu cũ đổi mới</h3>
+            <p>Hỗ trợ trợ giá lên đến 4.000.000đ khi nâng cấp từ xe cũ sang xe điện VoltRide.</p>
+          </div>
+        </article>
+        <article class="promo-card">
+          <img src="../images/bannerphothong.png" alt="Ưu đãi xe điện phổ thông">
+          <div class="promo-copy">
+            <span class="tag tag-blue">Cho sinh viên</span>
+            <h3>Trả góp hồ sơ gọn</h3>
+            <p>Duyệt nhanh, phù hợp khách cần chiếc xe điện đầu tiên với áp lực tài chính thấp.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container cta-shell">
+        <div class="cta-box">
+          <div>
+            <span class="eyebrow eyebrow-light">Liên hệ nhanh</span>
+            <h2>Nhận tư vấn mẫu xe phù hợp trong 5 phút.</h2>
+            <p>Để lại thông tin, showroom sẽ gọi lại tư vấn giá, màu xe, trả góp và lịch lái thử gần nhất.</p>
+          </div>
+          <form class="contact-form compact-form">
+            <input class="input" type="text" name="name" placeholder="Họ và tên">
+            <input class="input" type="tel" name="phone" placeholder="Số điện thoại">
+            <textarea class="textarea" name="message"
+              placeholder="Nhu cầu của bạn: đi học, đi làm hay mua cho gia đình"></textarea>
+            <button class="btn btn-primary" type="submit">Nhận tư vấn ngay</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>VoltRide</h3>
+        <p>Giao diện website bán xe điện được dựng bằng đúng các thư mục html, css, js, images hiện có.</p>
+      </div>
+      <div>
+        <h3>Danh mục</h3>
+        <ul>
+          <li><a href="./san-pham.html">Xe điện cao cấp</a></li>
+          <li><a href="./san-pham.html">Xe điện trung cấp</a></li>
+          <li><a href="./khuyen-mai.html">Ưu đãi trả góp</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Thông tin</h3>
+        <ul>
+          <li>Showroom: 123 Nguyễn Văn A, TP.HCM</li>
+          <li>Hotline: 0909 123 456</li>
+          <li>Email: hello@voltride.vn</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 VoltRide. Demo web bán xe điện bằng HTML, CSS và JavaScript thuần.</p>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
