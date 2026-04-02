@@ -5,7 +5,7 @@ VoltRide là một website showroom xe điện đô thị được xây dựng b
 
 Cấu trúc dự án
 HTWeb-2526HK2-BaiTapLon-Nhom13/
-├── docs/
+├── docs/<br>
 │   └── BaoCao.docx
 ├── html/
 │   ├── index.html        — Trang chủ
