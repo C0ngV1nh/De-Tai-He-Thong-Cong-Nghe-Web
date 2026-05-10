@@ -4,7 +4,8 @@ Báo cáo đề tài Hệ Thống Công Nghệ Web - IUH - Nhóm 13
 VoltRide là một website showroom xe điện đô thị được xây dựng bằng HTML, CSS và JavaScript thuần. Website mô phỏng các chức năng cơ bản của một showroom trực tuyến, giúp người dùng dễ dàng tìm hiểu, xem thông tin sản phẩm, theo dõi khuyến mãi và gửi yêu cầu tư vấn.
 
 Cấu trúc dự án
-<img width="552" height="1024" alt="image" src="https://github.com/user-attachments/assets/aa6a9340-ad7a-4741-82ee-e286f7e45181" />
+![Uploading image.png…]()
+
 
 
 
