@@ -27,8 +27,7 @@ body {
   margin: 0;
   font-family: "Be Vietnam Pro", "Segoe UI", sans-serif;
   color: var(--text);
-  background: radial-gradient(circle at top left, rgba(23, 125, 88, 0.08), transparent 28%),
-    linear-gradient(180deg, #fbfcfa 0%, var(--bg) 100%);
+  background: radial-gradient(circle at top left, rgba(23, 125, 88, 0.08), transparent 28%), linear-gradient(180deg, #fbfcfa 0%, var(--bg) 100%);
   line-height: 1.65;
 }
 
@@ -241,7 +240,9 @@ textarea {
   background: linear-gradient(135deg, var(--brand), #46aa7f);
   color: white;
   box-shadow: 0 14px 32px rgba(23, 125, 88, 0.22);
+  width: 100%;
 }
+
 
 .btn-outline {
   background: white;
@@ -868,6 +869,7 @@ textarea {
 }
 
 @media (max-width: 1080px) {
+
   .hero-grid,
   .split-grid,
   .detail-grid,

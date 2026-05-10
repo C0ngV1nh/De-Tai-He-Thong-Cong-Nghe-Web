@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   initDetailGallery();
   initContactForms();
 });
-  
+
 function initHeroSlider() {
   var sliderTrack = document.getElementById("hero-slider-track");
   var sliderDots = document.getElementById("hero-slider-dots");
@@ -24,7 +24,7 @@ function initHeroSlider() {
 
   var heroSlides = [
     {
-      image: "../assets/bannercaocap.png",
+      image: "../images/bannercaocap.png",
       alt: "Banner xe điện hạng sang VoltRide",
       eyebrow: "Hạng sang",
       title: "Dòng xe điện cao cấp cho người cần trải nghiệm êm, mạnh và sang.",
@@ -35,7 +35,7 @@ function initHeroSlider() {
       secondaryHref: "./lien-he.html"
     },
     {
-      image: "../assets/bannertrungcap.png",
+      image: "../images/bannertrungcap.png",
       alt: "Banner xe điện trung cấp VoltRide",
       eyebrow: "Trung cấp",
       title: "Phân khúc trung cấp cân bằng giữa chi phí đầu tư và hiệu quả sử dụng.",
@@ -46,7 +46,7 @@ function initHeroSlider() {
       secondaryHref: "./lien-he.html"
     },
     {
-      image: "../assets/bannerphothong.png",
+      image: "../images/bannerphothong.png",
       alt: "Banner xe điện phổ thông VoltRide",
       eyebrow: "Phổ thông",
       title: "Mẫu xe điện phổ thông cho nhu cầu cơ bản, dễ mua và dễ sử dụng.",
@@ -147,7 +147,7 @@ function initCategoryBrowser() {
         {
           name: "VoltRide S Ultra Black",
           tag: "Hạng sang",
-          image: "../assets/xecaocap.png",
+          image: "../images/xecaocap.png",
           price: "32.990.000đ",
           desc: "Bản màu đen bóng dành cho khách thích vẻ ngoài mạnh và sang trọng.",
           bullets: ["Pin Lithium 72V", "Quãng đường 120km", "Màn hình TFT cao cấp"]
@@ -155,7 +155,7 @@ function initCategoryBrowser() {
         {
           name: "VoltRide S Ultra Graphite",
           tag: "Hạng sang",
-          image: "../assets/xecaocap1.png",
+          image: "../images/xecaocap1.png",
           price: "33.490.000đ",
           desc: "Biến thể sắc xám hiện đại, hợp phong cách doanh nhân và đi làm hàng ngày.",
           bullets: ["Phanh đĩa trước sau", "Đèn LED projector", "Yên ngồi dày cao cấp"]
@@ -163,7 +163,7 @@ function initCategoryBrowser() {
         {
           name: "VoltRide S Ultra Copper",
           tag: "Hạng sang",
-          image: "../assets/caocap2.png",
+          image: "../images/caocap2.png",
           price: "33.990.000đ",
           desc: "Phiên bản phối màu nổi bật cho khách cần chiếc xe điện có điểm nhấn thị giác rõ ràng.",
           bullets: ["Thiết kế premium", "Khóa thông minh", "Khung xe chắc chắn"]
@@ -177,7 +177,7 @@ function initCategoryBrowser() {
         {
           name: "VoltRide M City Navy",
           tag: "Trung cấp",
-          image: "../assets/xetrungcap.png",
+          image: "../images/xetrungcap.png",
           price: "21.490.000đ",
           desc: "Mẫu trung cấp đa dụng dành cho lịch trình đi học, đi làm và giao hàng nhẹ.",
           bullets: ["Quãng đường 90km", "Cốp rộng 22L", "Chống nước IP67"]
@@ -185,7 +185,7 @@ function initCategoryBrowser() {
         {
           name: "VoltRide M City White",
           tag: "Trung cấp",
-          image: "../assets/trungcap1.png",
+          image: "../images/trungcap1.png",
           price: "21.790.000đ",
           desc: "Biến thể sáng màu cho người thích tổng thể gọn gàng, thanh lịch và trẻ trung.",
           bullets: ["Động cơ tiết kiệm điện", "Yên thấp dễ lái", "Thích hợp đi phố"]
@@ -193,7 +193,7 @@ function initCategoryBrowser() {
         {
           name: "VoltRide M City Red",
           tag: "Trung cấp",
-          image: "../assets/trungcap2.png",
+          image: "../images/trungcap2.png",
           price: "21.990.000đ",
           desc: "Bản phối màu nổi bật cho khách cần xe điện cá tính nhưng vẫn cân bằng giá và tính năng.",
           bullets: ["Sạc đầy 5.5 giờ", "Khung sườn chịu lực tốt", "Đề pa mượt"]
@@ -207,7 +207,7 @@ function initCategoryBrowser() {
         {
           name: "VoltRide Go Mint",
           tag: "Phổ thông",
-          image: "../assets/xephothong.png",
+          image: "../images/xephothong.png",
           price: "14.990.000đ",
           desc: "Mẫu xe phổ thông phù hợp học sinh, sinh viên hoặc gia đình cần xe thứ hai tiết kiệm.",
           bullets: ["Quãng đường 65km", "Sạc trong 6 giờ", "Chiều cao yên thân thiện"]
@@ -215,7 +215,7 @@ function initCategoryBrowser() {
         {
           name: "VoltRide Go Silver",
           tag: "Phổ thông",
-          image: "../assets/xephothong2.png",
+          image: "../images/xephothong2.png",
           price: "15.290.000đ",
           desc: "Biến thể trung tính dễ dùng, hợp nhu cầu đi học, đi chợ và di chuyển gần mỗi ngày.",
           bullets: ["Pin tháo rời", "Đèn LED tiết kiệm điện", "Bảo trì đơn giản"]
@@ -324,19 +324,51 @@ function initDetailGallery() {
 }
 
 function initContactForms() {
-  var forms = document.querySelectorAll(".contact-form");
+  const forms = document.querySelectorAll(".contact-form");
+  const nameRegex = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝàáâãèéêìíòóôõùúýĂăĐđĨĩŨũƠơƯưẠ-ỹ\s'-]{2,100}$/i;
+  const phoneRegex = /^(\+84|0)[1-9]\d{8,9}$/;
+  const addressRegex = /^[\w\sÀ-ỹ,.\-/#()']{10,300}$/u;
 
-  forms.forEach(function (form) {
-    var status = form.querySelector(".form-status");
+  forms.forEach(form => {
+    const status = form.querySelector(".form-status");
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      form.querySelectorAll(".error-msg").forEach(el => el.remove());
+      let valid = true;
 
-    form.addEventListener("submit", function (event) {
-      event.preventDefault();
-
-      if (status) {
-        status.textContent = "Thông tin đã được ghi nhận ở bản demo. Bạn có thể nối form này sang backend để nhận dữ liệu thật.";
+      const name = form.querySelector('input[name="hoten"], input[name="name"], #hoten, #name');
+      if (name && !nameRegex.test(name.value.trim())) {
+        showError(name, "Họ tên không hợp lệ");
+        valid = false;
       }
 
-      form.reset();
+      const phone = form.querySelector('input[name="sodienthoai"], input[name="phone"], #sodienthoai, #phone');
+      if (phone && !phoneRegex.test(phone.value.trim())) {
+        showError(phone, "SĐT không hợp lệ (0 hoặc +84)");
+        valid = false;
+      }
+
+      const address = form.querySelector('input[name="diachi"], textarea[name="diachi"], #diachi');
+      if (address && !addressRegex.test(address.value.trim())) {
+        showError(address, "Địa chỉ phải 10-300 ký tự");
+        valid = false;
+      }
+
+      if (valid) {
+        if (status) status.textContent = "✅ Đã ghi nhận!";
+        setTimeout(() => { form.reset(); if (status) status.textContent = ""; }, 1500);
+      }
     });
   });
+
+  function showError(input, msg) {
+    const err = document.createElement("div");
+    err.className = "error-msg";
+    err.style.color = "#d32f2f";
+    err.style.fontSize = "13px";
+    err.style.marginTop = "4px";
+    err.textContent = msg;
+    input.parentNode.appendChild(err);
+    input.style.borderColor = "#d32f2f";
+  }
 }
